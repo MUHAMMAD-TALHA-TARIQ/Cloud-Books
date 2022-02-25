@@ -19,3 +19,8 @@ pip install -r requirements.txt
 ```
 
 ## Features
+- Infinite Sections
+- Infinite Sub-Sections
+- Edit Sections
+- Json Tree View
+- Section Creation using DRF (Django Rest Framework)
