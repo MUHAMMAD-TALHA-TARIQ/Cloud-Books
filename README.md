@@ -100,6 +100,9 @@ Popup modal for Edit Section !
 
 
 ## Administrator Access
+
+Admin link ==> <a href="http://127.0.0.1:8000/admin/" target="_blank">http://127.0.0.1:8000/admin/</a>
+
 Username 
 ```
 admin
