@@ -6,9 +6,7 @@ Required : `Python`  `Django`  `Django-Rest-Framework`
 
 Requirements are also saved in `requirements.txt` file.
 
-```
-  cd Cloud-books
-```
-  ```
-   pip install -r requirements.txt 
-   ```
+Use the following commands to fulfil requirements 
+
+```cd Cloud-Books```
+```pip install -r requirements.txt ```
