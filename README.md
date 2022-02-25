@@ -1,10 +1,10 @@
-## Cloud Books
+# Cloud Books
 Cloud Books is a web platform that provide writers to get `infinite Sections and Sub-Sections` of there books, novels etc.
 
-# Getting started
+## Getting started
 Clone the repoitory to your local system and install requirements accordingly.
 
-# Requirements
+## Requirements
 Required : `Python`  `Django`  `Django-Rest-Framework`
 
 Requirements are also saved in `requirements.txt` file.
