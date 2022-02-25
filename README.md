@@ -18,6 +18,13 @@ cd Cloud-Books
 pip install -r requirements.txt 
 ```
 
+
+## Supported OS
+- MACOS
+- Windows
+- Linux
+
+
 ## Features
 - Infinite Sections
 - Infinite Sub-Sections
