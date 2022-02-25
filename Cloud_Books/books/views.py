@@ -25,7 +25,7 @@ def create_section(request):
         section_parent_id = request.POST.get("p_id")
         section_heading = request.POST.get('s_head')
         section_para = request.POST.get('s_para')
-        if section_parent_id == "":
+        if section_parent_id == "" or section_parent_id == "-":
             Books_Section.objects.create(parent_id="-", heading=section_heading, paragraph=section_para)
             return redirect(f'/books')
         else:
