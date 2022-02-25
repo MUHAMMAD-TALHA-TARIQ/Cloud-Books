@@ -45,11 +45,21 @@ pip install -r requirements.txt
 
 <img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155698083-b54d0926-fb67-4a53-ade5-39f644a26807.png">
 
+Popup modal for New Section !
+
+<img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155698824-3f8d9e7a-4b01-44e2-9a12-e3ff86c3121e.png">
+
 5. Clcik on your `<Section headihng>` to open sub-sesctions or create sub-sections under this sections.
 
 <img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155698319-19df0920-f066-4581-be00-cfce600eab33.png">
-<img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155698824-3f8d9e7a-4b01-44e2-9a12-e3ff86c3121e.png">
 
+6. Click on `Edit Section` to edit section heading and paragraph.
+
+<img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155699237-512a1322-ca24-4d5e-ae22-cadef11a5685.png">
+
+Popup modal for Edit Section !
+
+<img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155699474-063bcfd9-cb7e-4e6f-8e9b-00b98613882c.png">
 
 
 
