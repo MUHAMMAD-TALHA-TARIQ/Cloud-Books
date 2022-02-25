@@ -34,7 +34,7 @@ pip install -r requirements.txt
  ```
   python manage.py runserver
  ```
-- Than open [http://127.0.0.1:8000/books/](http://127.0.0.1:8000/books/)
+- Than Click on or open this link on browser <a href="http://127.0.0.1:8000/books/" target="_blank">http://127.0.0.1:8000/books/</a>
 
 
 ## Usage
