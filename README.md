@@ -48,6 +48,8 @@ pip install -r requirements.txt
 5. Clcik on your `<Section headihng>` to open sub-sesctions or create sub-sections under this sections.
 
 <img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155698319-19df0920-f066-4581-be00-cfce600eab33.png">
+<img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155698824-3f8d9e7a-4b01-44e2-9a12-e3ff86c3121e.png">
+
 
 
 
