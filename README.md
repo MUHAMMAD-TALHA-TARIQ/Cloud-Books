@@ -29,16 +29,16 @@ pip install -r requirements.txt
 ## Usage
 1. Click `home` button, to goto parent sections directory.
 
-![image](https://user-images.githubusercontent.com/57211193/155696962-a9af2a77-204c-45f6-b86b-9f4b7eb2dd7e.png)
+<img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155696962-a9af2a77-204c-45f6-b86b-9f4b7eb2dd7e.png">
 
 
 2. Click `Json Tree View` button, for Viewing Nested json structure of whole project (with sections & sub-sections).
 
-![image](https://user-images.githubusercontent.com/57211193/155697287-f68b2de7-0bdb-4da0-bfaf-1e645724bdba.png)
+<img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155697287-f68b2de7-0bdb-4da0-bfaf-1e645724bdba.png">
 
 3. Click on `DRF creation` button, to create sections and sub-sections using Django Rest Framework.
 
-![image](https://user-images.githubusercontent.com/57211193/155697876-ca252e64-754d-4458-84a7-8657b752d6bd.png)
+<img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155697876-ca252e64-754d-4458-84a7-8657b752d6bd.png">
 
 
 4. Click on `Add Sections` button, to create section using Django templating (GUI).
