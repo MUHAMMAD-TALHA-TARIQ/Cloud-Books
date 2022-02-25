@@ -27,5 +27,12 @@ pip install -r requirements.txt
 
 
 ## Usage
-Goto Home Directory with all the parent Sections by clicking on Home button.
-![image](https://user-images.githubusercontent.com/57211193/155696864-f22d0680-8447-4ad6-b07c-6e61dbb117ee.png)
+1. Goto Home Directory with all the parent Sections by clicking on Home button.
+
+![image](https://user-images.githubusercontent.com/57211193/155696962-a9af2a77-204c-45f6-b86b-9f4b7eb2dd7e.png)
+
+
+2. Json Tree View, CLick to see the whole sections and sub-sections of the project in nested json.
+
+![image](https://user-images.githubusercontent.com/57211193/155697287-f68b2de7-0bdb-4da0-bfaf-1e645724bdba.png)
+
