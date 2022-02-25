@@ -99,3 +99,12 @@ Popup modal for Edit Section !
 
 
 
+## Administrator Access
+Username 
+```
+admin
+```
+Password 
+```
+admin
+```
