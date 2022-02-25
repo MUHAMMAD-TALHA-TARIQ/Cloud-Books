@@ -1,0 +1,36 @@
+
+<!-- Create Modal -->
+<div class="modal fade" id="create-section" tabindex="-1" role="dialog" aria-labelledby="{{data.self_id}}Title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="{{data.self_id}}Title">Create New Section</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form method="POST" action="{% url 'create_section' %}" >
+          <div class="modal-body">
+              {% csrf_token %}
+              <input type="text" value="{{ parent_id }}" name="p_id" style="display:none;">
+              <label><b>Heading</b></label><br>
+              <input type="text" value="{{data.heading}}" name="s_head">
+              <br><br>
+              <label><b>Edit The Section Text Here</b></label>
+              <textarea style="width:100%; height:200px;" name="s_para">{{data.paragraph}}</textarea>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-success">Create</button>
+          </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<style>
+  input, textarea{
+    background-color:#fff9ea;;
+  }
+</style>

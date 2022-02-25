@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Cloud Books</title>
+  </head>
+  <body style="background-color: #fff9ea; marging:20px; padding:20px;">
+
+
+    <!-- Home Button  -->
+    <a class="btn" style="color:white; background:#00aeff;" href="{% url 'home' %}">
+      <i class="bi bi-house-door-fill"></i>
+    </a>
+
+    <!-- Json Tree -->
+    <a class="btn" style="color:white; background:#3369e7;" href="{% url 'json_tree' %}" target="_blank">
+      <i class="bi bi-filetype-json"></i> Json Tree View
+    </a>
+
+    <!-- Create Using Django Rest Framework -->
+    <a class="btn" href="{% url 'drf_creation' %}" target="_blank" style="background:#b50938; color:white;">
+      <i class="bi bi-filetype-json"></i> DRF Creation
+    </a>
+
+    <br><br>
+
+    <!-- Create Button  -->
+    <button type="button" class="btn" data-toggle="modal" data-target="#create-section" style="background:#075e54; color:white;">
+      <i class="bi bi-plus-circle-fill"></i> Add Sections
+    </button>
+    <!-- Create Sections Paragraphs -->
+    {% include 'books/create_module.html' %}
+
+
+    <!-- Sections    -->
+    <br>
+    {% for data in response %}
+        <div style="padding:20px; width:70%; background:white; margin-top:20px;text-align:justify;">
+            <a href='{% url "sub_sections" data.self_id %}'>
+                <h4><i class="bi bi-subtract"></i> {{data.heading}}</h4>
+            </a>
+            <p style="font-weight:400;"><i>{{data.paragraph}}</i></p>
+
+        <!-- Edit Sections Paragraphs -->
+        {% include 'books/edit_module.html' %}
+
+        </div>
+
+    {% endfor %}
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
