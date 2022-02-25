@@ -24,3 +24,8 @@ pip install -r requirements.txt
 - Edit Sections
 - Json Tree View
 - Section Creation using DRF (Django Rest Framework)
+
+
+## Usage
+Goto Home Directory with all the parent Sections by clicking on Home button.
+![image](https://user-images.githubusercontent.com/57211193/155696864-f22d0680-8447-4ad6-b07c-6e61dbb117ee.png)
