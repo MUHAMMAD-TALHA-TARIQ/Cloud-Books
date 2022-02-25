@@ -25,6 +25,17 @@ pip install -r requirements.txt
 - Json Tree View
 - Section Creation using DRF (Django Rest Framework)
 
+## Starting Project
+- In Base Directory run below command
+ ```
+  python3 manage.py runserver
+ ```
+ OR
+ ```
+  python manage.py runserver
+ ```
+- Than open [http://127.0.0.1:8000/books/](http://127.0.0.1:8000/books/)
+
 
 ## Usage
 
