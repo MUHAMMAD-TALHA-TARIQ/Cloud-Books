@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 Json View in New tab !
 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/57211193/155699702-dc004197-5a51-4d13-82c4-f2fc814e00d4.png">
+<img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155699702-dc004197-5a51-4d13-82c4-f2fc814e00d4.png">
 
 
 
@@ -65,6 +65,7 @@ Popup modal for New Section !
 <img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155698319-19df0920-f066-4581-be00-cfce600eab33.png">
 
 Sub section view !
+
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/57211193/155699883-c5f350a0-6880-42ea-8dd7-03513580ad72.png">
 
 
