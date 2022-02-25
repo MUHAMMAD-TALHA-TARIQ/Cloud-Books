@@ -36,6 +36,12 @@ pip install -r requirements.txt
 
 <img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155697287-f68b2de7-0bdb-4da0-bfaf-1e645724bdba.png">
 
+Json View in New tab !
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/57211193/155699702-dc004197-5a51-4d13-82c4-f2fc814e00d4.png">
+
+<img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155697287-f68b2de7-0bdb-4da0-bfaf-1e645724bdba.png">
+
 3. Click on `DRF creation` button, to create sections and sub-sections using Django Rest Framework.
 
 <img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155697876-ca252e64-754d-4458-84a7-8657b752d6bd.png">
@@ -52,6 +58,10 @@ Popup modal for New Section !
 5. Clcik on your `<Section headihng>` to open sub-sesctions or create sub-sections under this sections.
 
 <img width="445" alt="image" src="https://user-images.githubusercontent.com/57211193/155698319-19df0920-f066-4581-be00-cfce600eab33.png">
+
+Sub section view !
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/57211193/155699883-c5f350a0-6880-42ea-8dd7-03513580ad72.png">
+
 
 6. Click on `Edit Section` to edit section heading and paragraph.
 
